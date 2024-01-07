@@ -1,0 +1,28 @@
+body{
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal; /*lighter, normal, bold, bolder*/ 
+    font-style: normal; /*italic, oblique*/
+
+    /*text-decoration: normal;*/
+}
+    /*
+    shorthand font (ORDEM OBRIGATÓRIA)
+    font-style -> font-weight -> font-size -> font-family
+    */
+
+h1{
+    font: italic bold 3em Arial, sans-serif; /* abreviou as 4 linhas exemplificados no -body-*/
+}
+h2{
+    font: italic 3em Arial, sans-serif;
+}
+
+
+
+
+/*
+    weigth= peso
+    widht= largura
+    height= altura
+    */
