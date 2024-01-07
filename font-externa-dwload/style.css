@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'JosefinSans';
+    src: url(fonts/JosefinSans-VariableFont_wght.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+    tipos de format: (bom ter otf e ttf!!!)
+        -opentype (otf)
+        -truetype (ttf)
+        -embedded-opentype
+        -truetype-aat (apple advanced typography)
+        -svg
+*/
+body{
+    font-family: 'JosefinSans', Helvetica, sans-serif;
+}
+h1{
+    font-family: 'JosefinSans', Times, serif;
+    font-size: 3em;
+    font-weight: normal;
+}
