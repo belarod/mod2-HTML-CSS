@@ -1,0 +1,23 @@
+div{
+    display: inline-block;
+    background-color: antiquewhite;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px black;
+}
+
+div:hover{ /* : é uma pseudoclasse// deve estar relacionado a uma classe ou elemento// provoca um estado*/
+    background-color: aquamarine;
+}
+
+div>p{ /*Esconde o P dentro de div*/
+    display: none;
+}
+
+div:hover>p{ /*Mostra o P quando passar por cima*/
+    display: block;
+    color: azure;
+    background-color: brown;
+    width: 200px;
+}
