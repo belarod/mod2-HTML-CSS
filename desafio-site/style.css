@@ -1,0 +1,123 @@
+strong{
+    color: #093f12;
+    font-style: italic;
+}
+#lista{
+    columns: 2;
+    text-align: justify;
+    list-style-position: inside;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+header{
+    background-image: linear-gradient(to bottom, #37e2409d 10%, #093f12);
+    padding-top: 30px;
+    text-align: center;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.397);
+    color: white;
+}
+aside p{
+    text-align: center;
+}
+h1{
+    padding: 20px;
+}
+h2{
+    background-image: linear-gradient(to left, #ffffff, #37e23f52, #093f1281);
+    padding: 3px;
+}
+h3{
+    background-image: linear-gradient(to left, #ffffff, #37e23f52, #093f1281);
+    padding: 6px;
+}
+h4{
+    color: white;
+    background-color: #093f12;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 30px;
+}
+nav{
+    text-align: left;
+}
+nav a{
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 13px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+nav>:hover{
+    background-color: #093f12;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #093f12;
+    background-color: #05380e38;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: #8ac293;
+}
+main{
+    padding: 20px;
+    background-color: white;
+
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto; /*centraliza*/
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.397);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+p{
+    text-indent: 35px;
+    text-align: justify;
+    padding: 25px;
+    margin: 20px 0px;
+    line-height: 1.5em;
+}
+img{
+    margin: auto;
+    width: 100%;
+}
+.pequena{
+    margin: auto;
+    max-width: 350px;
+    display: block; /*pois img naturalmente não é block*/
+}
+iframe{
+    margin: auto;
+    display: block;
+    min-width: auto;
+}
+.mais{
+    background-color: #8ac293;
+    border-radius: 25px;
+}
+#mais{
+    margin: 0px;
+}
+ul{
+    padding: 30px;
+    text-indent: 10px;
+}
+footer{
+    background-color: #093f12;
+    color: white;
+    padding: 0px;
+}
+footer p{
+    text-align: center;
+}
