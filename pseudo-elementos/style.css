@@ -1,0 +1,29 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    color: #0b3f14;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{ /*mais uma pseudoclasse//LEMBRANDO: define estado de um elemento*/
+    color: #569c06;
+}
+
+a:hover{ /*pseudoclasse*/
+    text-decoration: underline;
+    color: black;
+}
+
+a:active{ /*pseudoclasse*/
+    color: aquamarine;
+}
+
+a::after{
+    content: '[link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
